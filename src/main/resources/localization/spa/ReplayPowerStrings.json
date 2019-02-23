@@ -1,0 +1,455 @@
+{
+  "Doomed": {
+    "NAME": "Doomed",
+    "DESCRIPTIONS": [
+	"Will lose #b",
+	" HP in #b", 
+	" turns.", 
+	" turn."
+    ]
+  },
+  "Life Bind": {
+    "NAME": "Life Bind",
+    "DESCRIPTIONS": [
+	"Whenever you lose health, enemies with #yLife #yBind will also take damage.", 
+	"Takes damage whenever you lose health."
+    ]
+  },
+  "Replay:Enemy Life Bind": {
+    "NAME": "Coupled Soul",
+    "DESCRIPTIONS": [
+	"This enemy shares its health bar with other enemies that have this power."
+    ]
+  },
+  "Replay:Forged in Hellfire": {
+    "NAME": "Forged in Hellfire",
+    "DESCRIPTIONS": [
+	"All non-attack damage recieved is reduced",
+	" to #b",
+	" by #b"
+    ]
+  },
+  "Replay:Off the Rails": {
+    "NAME": "Off the Rails",
+    "DESCRIPTIONS": [
+	"Damage recieved that also hits ALL other enemies is reduced",
+	" to #b",
+	" by #b"
+    ]
+  },
+  "Reflection": {
+    "NAME": "Reflection",
+    "DESCRIPTIONS": [
+	"Whenever you completely block damage, deal that much damage to the attacker."
+    ]
+  },
+  "Necrotic Poison": {
+    "NAME": "Necrotic Poison",
+    "DESCRIPTIONS": [
+	"At the start of your turn, lose #b",
+	" HP, then reduce #yNecrotic #yPoison by half.", 
+	"At the start of its turn, loses #b",
+	" NL Regular #yPoison will not count down."
+    ]
+  },
+  "Retain Some Block": {
+    "NAME": "Retain Block",
+    "DESCRIPTIONS": [
+	"At the end of each round, retain up to #b",
+	" #yBlock."
+    ]
+  },
+  "Retain Some Energy": {
+    "NAME": "Retain Energy",
+    "DESCRIPTIONS": [
+	"At the end of each round, retain up to #b",
+	" #yEnergy."
+    ]
+  },
+  "Scrap Shanks": {
+    "NAME": "Scrap Shanks",
+    "DESCRIPTIONS": [
+	"When you discard a card during your turn, add #b", 
+	" Shiv",
+	" Shivs",
+	" and #b",
+	" Upgraded",
+	" to your hand."
+    ]
+  },
+  "The Works": {
+    "NAME": "The Works",
+    "DESCRIPTIONS": [
+	"For every #b", 
+	" cards you draw this turn, gain ",
+	" and deal #b",
+	" damage to a random enemy."
+    ]
+  },
+  "Specialist": {
+    "NAME": "Specialist",
+    "DESCRIPTIONS": [
+	"Increases non-attack damage by #b", 
+	"Decrease non-attack damage by #b"
+    ]
+  },
+  "Awakened Ritual": {
+    "NAME": "Awakened Ritual",
+    "DESCRIPTIONS": [
+	"If you ever have at least #b5 #yRitual #yComponents in your hand, they are replaced with #yDark #yEcho attacks.", 
+	" NL (need #b",
+	" more in hand)"
+    ]
+  },
+  "Reflective Lens": {
+    "NAME": "Reflective Lens",
+    "DESCRIPTIONS": [
+	"At the end of your turn, gain #b",
+	" #yReflection for each of your #yGlass orbs."
+	]
+  },
+  "ReplayTheSpireMod:RefundNext": {
+    "NAME": "Refund Next Card",
+    "DESCRIPTIONS": [
+	"The next card you play this turn has #yRefund #b",
+	"."
+	]
+  },
+  "replay:ExhaustiveNegationPower": {
+	"NAME": "Negate Exhaustive",
+    "DESCRIPTIONS": [
+	"The next #b",
+	" times you play an Exhaustive card, the Exhaustive counter will not go down."
+	]
+  },
+  "replay:DelayedReturnCardPower": {
+	"NAME": "Return Card",
+    "DESCRIPTIONS": [
+	"In #b",
+	" turns, ",
+	" will be returned to your draw pile."
+	]
+  },
+  "ReplayTheSpireMod:SystemScan": {
+    "NAME": "System Scan",
+    "DESCRIPTIONS": [
+	"The next #b",
+	" #yStatus card you draw #yExhausts and draws 1 card when drawn.",
+	" #yStatus cards you draw #yExhaust and draw 1 card when drawn."
+	]
+  },
+  "Snake Venom": {
+    "NAME": "Snake Venom",
+    "DESCRIPTIONS": [
+	"The next Attack you play applies #b",
+	" Necrotic Poison each time it deals unblocked damage."
+    ]
+  },
+  "GoodbyeWorld": {
+    "NAME": "Empty Bin",
+    "DESCRIPTIONS": [
+	"At the end of your turn, #yExhaust all #yCommon cards in your hand and gain #b",
+	" #yBlock for each."
+    ]
+  },
+  "Firewall": {
+    "NAME": "Firewall",
+    "DESCRIPTIONS": [
+	"When you block damage, #yChannel #b",
+	" #yHellfire."
+    ]
+  },
+  "Crystallizer": {
+    "NAME": "Crystallizer",
+    "DESCRIPTIONS": [
+	"Crystal orbs give an additional #b",
+	" #yFocus to adjacent orbs. NL At the end of your turn, if at least half your orb slots are empty, #yChannel #b",
+	" #yCrystal. NL Counts slots containing #yGlass as empty."
+    ]
+  },
+  "LanguidPower": {
+    "NAME": "Languid",
+    "DESCRIPTIONS": [
+	"All damage dealt by ",
+	" is reduced by #b",
+	". Lasts #b",
+	" more turns."
+    ]
+  },
+  "ReplayChaosPower": {
+    "NAME": "CHAOS!",
+    "DESCRIPTIONS": [
+	"Each round, #b",
+	" of the cards you draw have their stats and effects scrambled until the end of combat. NL #b",
+	" remaining this round."
+    ]
+  },
+  "ReplayBrewPower": {
+    "NAME": "Brewmaster",
+    "DESCRIPTIONS": [
+	"Obtain #b",
+	" random potion at the start of each turn.",
+	" random potions at the start of each turn."
+    ]
+  },
+  "Friendly": {
+    "NAME": "Friendly",
+    "DESCRIPTIONS": [
+	"This monster is on your side, and will attack enemies or help you."
+    ]
+  },
+  "Drowning": {
+    "NAME": "Drowning",
+    "DESCRIPTIONS": [
+	"At the end of your turn, lose #b",
+	"At the end of your turn, gain #b",
+	" HP. NL Increases when you take unblocked attack damage, decreases when you deal unblocked attack damage. NL Range is #b",
+	" to ",
+	" #b"
+    ]
+  },
+  "AbePower": {
+    "NAME": "Deadweight",
+    "DESCRIPTIONS": [
+	"#yCaptain #yAbe can't actually fight you underwater (when your #yDrowning level is at #b",
+	" or higher). NL NL What kind of pirate can't swim?"
+    ]
+  },
+  "TimeCollector": {
+    "NAME": "Time Collector",
+    "DESCRIPTIONS": [
+	"If you play #b",
+	" cards in a single turn, your turn ends. NL #yTime #yCollector can activate only once per combat."
+    ]
+  },
+  "Replay:Storyteller": {
+    "NAME": "Story Teller",
+    "DESCRIPTIONS": [
+	"She just wants you to listen to her story. NL When the story ends in #b",
+	" turns, you may leave."
+    ]
+  },
+  "Replay:Aging": {
+    "NAME": "Aging",
+    "DESCRIPTIONS": [
+	"For every #b",
+	" damage taken, ",
+	" gains #b1 #yLanguid."
+    ]
+  },
+  "Replay:Tripwire": {
+    "NAME": "Tripwire",
+    "DESCRIPTIONS": [
+	"At start of turn, #yStun a random enemy #b",
+	" times."
+    ]
+  },
+  "Replay:Fed": {
+    "NAME": "Well-Fed",
+    "DESCRIPTIONS": [
+	"Has gained #b",
+	" #yStrength. NL Will lose #b",
+	" #yStrength at the end of this turn."
+    ]
+  },
+  "Replay:Whispers Of Evil": {
+    "NAME": "Whispers Of Evil",
+    "DESCRIPTIONS": [
+	"At start of turn, Draw #b",
+	" card. NL At end of turn, add #b",
+	" random #yCurse #yEcho to your draw pile.",
+	" cards. NL At end of turn, add #b",
+	" random #yCurse #yEchoes to your draw pile."
+    ]
+  },
+  "Replay:Echo Chamber": {
+    "NAME": "Echo Chamber",
+    "DESCRIPTIONS": [
+	"Make an #yEcho of the first #b",
+	" non-Ethereal non-Power",
+	" cards you play each turn."
+    ]
+  },
+  "Replay:Color Shift": {
+    "NAME": "Color Shift",
+    "DESCRIPTIONS": [
+	"Each turn, choose 1 of 3 random effects. NL Effects last #b", 
+	" turns.",
+	"Yellow Shift",
+	"Confusion",
+	"You are #yConfused for #b",
+	"Green Shift",
+	"Envenom",
+	"Has #yEnvenom for #b",
+	"Red Shift",
+	"Vulnerable",
+	"Vulnerable for #b",
+	"Orange Shift",
+	"Backfire",
+	" is added to your draw pile at start of turn for #b",
+	"Blue Shift",
+	"Hexxed",
+	"#yHexxed for #b",
+	"Purple Shift",
+	"Slowed",
+	"Slowed for #b",
+	"Pale Shift",
+	"Intangible",
+	"Intangible for #b",
+	"Bronze Shift",
+	"Thorns",
+	"Has #yThorns for #b",
+	"Dark Shift",
+	"Beat of Death",
+	"Beat of Death for #b"
+    ]
+  },
+  "Sleeping": {
+    "NAME": "Asleep",
+    "DESCRIPTIONS": [
+	"Won't do anything yet. Wakes up when damaged or after #b",
+	" turns."
+    ]
+  },
+  "FF_Spore Cloud": {
+    "NAME": "Spore Mist",
+    "DESCRIPTIONS": [
+      "If killed by #yFade, applies #yVulnerable to you for #b",
+      " turns."
+    ]
+  },
+  "FF_Thievery": {
+    "NAME": "Soul Stealer",
+    "DESCRIPTIONS": [
+      "Each time ",
+	  " deals unblocked attack damage, they steal #b",
+	  " random buffs from the target."
+    ]
+  },
+  "FF_Rage": {
+    "NAME": "Ethereous Rage",
+    "DESCRIPTIONS": [
+      "Each time a monster dies, gains #b",
+	  " #yStrength."
+    ]
+  },
+  "RP_HourglassPower": {
+    "NAME": "Mercury Hourglass",
+    "DESCRIPTIONS": [
+      "At the start of your turn, deal #b",
+	  " damage to ALL enemies.",
+      "At the start of ",
+	  "'s turn, it deals #b",
+	  " damage to you."
+    ]
+  },
+  "RP_ThreadPower": {
+    "NAME": "Thread and Needle",
+    "DESCRIPTIONS": [
+      "Gives #b5 #yPlated #yArmor."
+    ]
+  },
+  "RP_OrichalcumPower": {
+    "NAME": "Orichalcum",
+    "DESCRIPTIONS": [
+      "Upon ending a turn with no #yBlock, gives #b",
+	  " #yBlock."
+    ]
+  },
+  "RP_SmoothStonePower": {
+    "NAME": "Oddly Smooth Stone",
+    "DESCRIPTIONS": [
+      "Gives #b1 #yDexterity."
+    ]
+  },
+  "RP_VajraPower": {
+    "NAME": "Vajra",
+    "DESCRIPTIONS": [
+      "Gives #b1 #yStrength."
+    ]
+  },
+  "RP_GiryaPower": {
+    "NAME": "Girya",
+    "DESCRIPTIONS": [
+      "Gives #b1 #yStrength at the start of turn. NL #b",
+	  " remaining."
+    ]
+  },
+  "RP_KunaiPower": {
+    "NAME": "Kunai",
+      "DESCRIPTIONS": [
+      "If you play #b",
+      " more #yAttack this turn, gain #b",
+      " #yDexterity.",
+      " more #yAttacks this turn, gain #b"
+    ]
+  },
+  "RP_LetterOpenerPower": {
+    "NAME": "Letter Opener",
+	"DESCRIPTIONS": [
+      "If you play #b",
+      " more #ySkill this turn, deal #b",
+      " damage to ALL enemies.",
+      " more #ySkills this turn, deal #b"
+    ]
+  },
+  "RP_Mango": {
+    "NAME": "Mango",
+	"DESCRIPTIONS": [
+      "Max HP increased by #b",
+      "."
+    ]
+  },
+  "RP_BronzeScales": {
+    "NAME": "Bronze Scales",
+	"DESCRIPTIONS": [
+      "When receiving #yAttack damage, deals #b",
+      " damage back."
+    ]
+  },
+  "RP_SelfFormingClay": {
+    "NAME": "Self-Forming Clay",
+	"DESCRIPTIONS": [
+      "Upon taking unblocked #yAttack damage, gives #b",
+	  " #yBlock next round."
+    ]
+  },
+  "RP_IncenseBurner": {
+    "NAME": "Incense Burner",
+	"DESCRIPTIONS": [
+      "Gain #b1 #yIntangible every #b6 turns."
+    ]
+  },
+  "Fire Breathing": {
+    "NAME": "Fire Breathing",
+    "DESCRIPTIONS": [
+      "At the end of your turn, for each #yAttack played this turn deal #b",
+      " damage to ALL enemies, increasing damage by #b",
+	  " each time."
+    ]
+  },
+  "GremboCoward": {
+    "NAME": "Cowardice",
+    "DESCRIPTIONS": [
+      "At the end of your turn, for each #yAttack played this turn deal #b",
+      " damage to ALL enemies, increasing damage by #b",
+	  " each time."
+    ]
+  },
+  "replay:ss_fish": {
+    "NAME": "Study Pondfish",
+    "DESCRIPTIONS": [
+			"Gain a random Pondfish or Captain Abe card at the start of next turn.",
+			"Gain a random Pondfish or Captain Abe card at the start of your next ",
+			" turns."
+		]
+  },
+  "replay:ss_forest": {
+    "NAME": "Study Fable-Spinner",
+    "DESCRIPTIONS": [
+			"Gain a random Fable-Spinner card at the start of next turn.",
+			"Gain a random Fable-Spinner card at the start of your next ",
+			" turns."
+		]
+  }
+}

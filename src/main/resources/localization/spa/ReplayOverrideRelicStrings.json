@@ -1,0 +1,9 @@
+{
+  "Dead Branch": {
+    "NAME": "Dead Branch",
+    "FLAVOR": "The branch of a tree from a forgotten era.",
+    "DESCRIPTIONS": [
+      "Whenever you #yExhaust a card, add a random card to your hand. NL Can be #yBurned at rest sites."
+    ]
+  }
+}

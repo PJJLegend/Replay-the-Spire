@@ -1,0 +1,205 @@
+{
+  "Captain Abe": {
+    "MOVES": [
+      "The Collapse",
+      "Captain's Orders",
+      "Keel Haul",
+      "Rob 'em Blind",
+      "Final Trick",
+      "Beyond Hell"
+    ],
+    "NAME": "Captain Abe",
+    "DIALOG": [
+      "@SET@ @SAIL!@",
+      "@WEIGH@ @ANCHOR!@",
+      "@AVAST@ @YE@ NL @SCURVEY@ @DOG!@",
+      "@SCUTTLE@ @THE@ @SHIPWRECK!@",
+      "Die, landlubber!",
+      "All hands on deck!",
+      "Arg, I'll get ye fer' that one!",
+      "~eh?~ NL ~wha?~",
+      "Capt'n Abe NL sails once more!",
+      "Don't think ye can NL get past ~Capt'n~ ~Abe~ NL with yer limbs intact!",
+      "~I'm~ ~not~ ~dead~ ~yet!~",
+      "... wait. I am dead.",
+      "~Arg!~ NL Flee now landlubber, or NL @BE@ @FOREVER@ #r@CURSED!@"
+    ]
+  },
+  "Pondfish": {
+    "MOVES": [
+      "Drag to Hell",
+      "Living Lantern",
+      "Teeth Rake",
+      "6 Feet Under",
+      "Splash"
+    ],
+    "NAME": "Pondfish",
+    "DIALOG": [
+      "...",
+      "o- >:["
+    ]
+  },
+  "FadingForestBoss": {
+    "MOVES": [
+		"Welcome...",
+		"The Forest Guides",
+		"The Forest Renews",
+		"The Forest Protects",
+		"The Forest Fades"
+	],
+    "NAME": "The Fable-Spinner",
+    "DIALOG": [
+		"Come in, Come in! NL I have a wonderful story to tell.",
+		"Welcome, dearie. NL Have a moment to listen to an old woman's tale?",
+		"Oh, I do love company! Would you like to hear a story?",
+		"Hello there, wanderer. NL I've got a story I think you'd like. Care to listen?",
+		"It all began with a mysterious forest...",
+		"Once upon a time, in a magical grove...",
+		"Long ago, an adventurer became lost in the woods...",
+		"They say somewhere in the Spire, a forest of strange trees grew...",
+		"In the forest one could find all manner of ~strange~ ~and~ ~wonderful~ ~things...~",
+		"In the forest one could find all manner of ~strange~ ~and~ ~horrid~ ~things...~",
+		"But the forest carried with it a ~terrible~ ~curse...~",
+		"The creatures of the forest were familiar, yet ~strange...~",
+		"One is never alone in such a place...",
+		"The woods harbored many creatures, each one seeming ~not~ ~quite~ ~normal...~",
+		"Thank you for listening. Most leave before the story's end.",
+		"You're a kind adventurer. NL And a very good listener!",
+		"Thanks for keeping me company. I hope you enjoyed the story.",
+		"Thanks for humoring me. I do love to tell tales!",
+		"Come by any time, dearie. I've plenty more stories to tell!",
+		"Feel free to drop by again sometime, and I'll tell you a new tale."
+	]
+  },
+  "Replay:Hell Engine": {
+    "MOVES": [
+		"Now Leaving",
+		"Hot Coals",
+		"Doors Closing",
+		"Runaway Train",
+		"Living Steel"
+    ],
+    "NAME": "Hell's Engine",
+    "DIALOG": [
+		""
+    ]
+  },
+  "Replay:Conductor": {
+    "MOVES": [
+		"Destination Nowhere",
+		"Please Remain Seated",
+		"Complementary Explosives",
+		"Rail Gunner",
+		"Cargo Hold"
+    ],
+    "NAME": "The Conductor",
+    "DIALOG": [
+		"CHOO CHOO MOTHERFUCKER"
+    ]
+  },
+  "Replay:ConductorBomb": {
+    "MOVES": [
+		""
+    ],
+    "NAME": "Dynamite",
+    "DIALOG": [
+		""
+    ]
+  },
+  "FF_ComboSlime_L": {
+    "MOVES": [
+      "Mixed Spit",
+      "Split",
+      "Lick"
+    ],
+    "NAME": "False Combo Slime (L)",
+    "DIALOG": [
+      ""
+    ]
+  },
+  "J_louse_1": {
+    "MOVES": [
+      "Grow"
+    ],
+    "NAME": "Erik",
+    "DIALOG": [
+      ""
+    ]
+  },
+  "J_louse_2": {
+    "MOVES": [
+      "Spit"
+    ],
+    "NAME": "Yu",
+    "DIALOG": [
+      ""
+    ]
+  },
+  "J_louse_3": {
+    "MOVES": [
+      "Taunt",
+	  "Cry"
+    ],
+    "NAME": "Puro",
+    "DIALOG": [
+      ""
+    ]
+  },
+  "J_louse_4": {
+    "MOVES": [
+      "Steal Pants",
+	  "Cry"
+    ],
+    "NAME": "Jer the Pantsless",
+    "DIALOG": [
+      ""
+    ]
+  },
+  "R_Hoarder": {
+    "MOVES": [
+      "Overflow",
+	  "Relic Collector"
+    ],
+    "NAME": "Rhapsodic Hoarder",
+    "DIALOG": [
+      "My, your draw pile looks thin!",
+	  "Let's bump that up to, say, ",
+	  " cards?"
+    ]
+  },
+  "Replay:Snechameleon": {
+    "MOVES": [
+      "Paralyzing Gaze",
+	  "Graspers",
+	  "Chompers"
+    ],
+    "NAME": "Snechameleon",
+    "DIALOG": [
+		""
+    ]
+  },
+  "ReplayMimic": {
+    "MOVES": [
+      "Close Lid",
+      "Blade Mimicry",
+      "Mad Mimicry",
+      "BOO!"
+    ],
+    "NAME": "Mimic",
+    "DIALOG": [
+      "Off-guard"
+    ]
+  },
+  "GremlinCook": {
+    "MOVES": [
+      "Serve",
+      "Overcook"
+    ],
+    "NAME": "Gremlin Cook",
+    "DIALOG": [
+      "",
+      "Come and get it!",
+      "Eep!"
+    ]
+  }
+}

@@ -1,0 +1,230 @@
+{
+  "Stuck": {
+	"NAME": "Stuck",
+    "DESCRIPTIONS": [
+			"While crawling though some rubble, you manage to get your leg stuck in some rocks.",
+			"What should you do?",
+			"Hopefully nobody sees you like this!",
+			"Your dignity is more important than time."
+	],
+    "OPTIONS": [
+			"[Continue]",
+			"[Take Off Pants] #rLose ",
+			"[Tug] #gUpgrade ",
+			"[Locked] Requires: Unupgraded Card",
+			"[Leave]"
+    ]
+  },
+  "ReplayTeleport": {
+	"NAME": "Portal",
+    "DESCRIPTIONS": [
+			"Space itself twists and turns before your very eyes!"
+	],
+    "OPTIONS": [
+			"[Enter Portal]"
+    ]
+  },
+  "Mirror Mist": {
+	"NAME": "Mirror Mist",
+	"DESCRIPTIONS": [
+		"In the mist you see a twisted reflection of yourself. You struggle to keep your thoughts your own as swirling colors surround you.",
+		"You briefly remember lost memories, but they belong to one other than yourself. The mist clears, leaving you somewhat disoriented.",
+		"You feel as if some part of you has been lost, but you can't quite place it. As the mist clears, the feeling is soon forgotten."
+	],
+	"OPTIONS": [
+		"[Locked] Requires: ",
+		".",
+		"[Lose ",
+		"] #gObtain #gSurvivor #gand #gNeutralize.",
+		"] #gObtain #gBurning #gBlood.",
+		"[Wander] Transform and upgrade a random card.",
+		"[Leave]",
+		"] #gObtain #gSizzling #gBlood.",
+		"] #gObtain ",
+		" and ",
+		"[Search] #gObtain ",
+		" #gGold. #r",
+		"%: #rBecome #rCursed #r- #r",
+		"[Meditate] #gFully #gheal. #rBecome #rCursed #r- #r",
+		"[Gaze] #g",
+		"%: #gObtain #ga #gRelic. #r"
+	]
+  },
+  "Trapped Chest": {
+	"NAME": "Trapped Chest",
+	"DESCRIPTIONS": [
+		"You find a locked chest. Something about it seems a bit off...",
+		"As you open the chest, darts suddently fly out at you!",
+		"The key smoothly unlocks the chest without triggering the trap mechanism.",
+		"Despite your best efforts, the trap manages to hit its mark. But at least the chest is unlocked!",
+		"You manage to dodge the darts - but just barely.",
+		"The chest contains stashed items!"
+	],
+	"OPTIONS": [
+		"[Pick Lock] #gObtain #grandom #gloot. #rTrigger #ra #rtrap.",
+		"[Use Cursed Key] #gObtain #grandom #gloot. #rObtain #rrandom #rcurse.",
+		"[Locked] Requires: Cursed Key.",
+		"[Leave]",
+		"[Endure] #rBecome #rCursed #r- #r",
+		"[Block] #rTake #r",
+		" #rDamage.",
+		"[Dodge] #r",
+		"%: #rTake #r",
+		"[Open Chest]",
+		"[Locked] Requires: Matryoshka.",
+		"[Locked] No Matryoshka charges remaining.",
+		"[Use Matryoshka Charge] #gObtain #gdouble #gloot."
+	]
+  },
+  "Chaos Ring Event": {
+	"NAME": "Dead Man's Rings",
+	"DESCRIPTIONS": [
+		"As you pass by a skeleton, you notice it is wearing a #yred #yring on each hand. You feel some sort of #r~chaotic~ #r~energy~ emanating from them; just looking makes your head start to pound.",
+		"You don't see how picking up cursed rings you found on dead people could possibly be anything other than a fantastic idea."
+	],
+	"OPTIONS": [
+		"[Left Hand] #gObtain #ga #gRelic. #r50%: #rBecome #rCursed - ",
+		"[Right Hand] #gObtain #ga #gRelic. #r50%: #rBecome #rCursed - ",
+		"[Both Hands] #gObtain #g2 #gRelics. #r75%: #rBecome #rCursed #r(random)",
+		"[Leave]"
+	]
+  },
+  "ReplayMapScout": {
+	"NAME": "Map Scout",
+	"DESCRIPTIONS": [
+		"A young man with a wild look in his eyes approaches you, rattling on about the dangers of the Spire. NL \"Monsters beyond imagination lie ahead! ~Ah,~ ~but~ ~I,~ @I@ @know@ @this@ @place!@ I have seen where these #r~dangers~ reside, and how to avoid them! You are interested, yes?\"",
+		"It seems he knows how to avoid certain threats, and is willing to share his knowledge - for a bit of gold, anyway.",
+		"You decide it's best to simply continue forward.",
+		"The man eagerly tells you what you wanted to know, along with quite a few extra things you couldn't care less about. NL You adjust your route into the next area based on this new information.",
+		"You tell the man you have no need to avoid danger, and ask him to point you towards the greatest power he knows of. NL The man becomes uncharacteristically silent for a moment, a wide grin spreading across his face. NL NL #r~\"...~ #r~are~ #r~you~ #r~sure?\"~",
+		"The man bursts into wild laughter before handing you a faded and bloody map with a location marked on it. NL You know not what you'll face, but you're sure to find out soon."
+	],
+	"OPTIONS": [
+		"[Locked] Requires: ",
+		" gold",
+		"[Lose ",
+		"] You will not encounter #yThe #yAwakened #yOne in the next act.",
+		"] You will not encounter #yDeca #yand #yDonu in the next act.",
+		"] You will not encounter #yTime #yEater in the next act.",
+		"[Ignore]",
+		"[Leave]",
+		"[Challenge Fate] You will encounter #rSomething #rTerrifying in the next act.",
+		"#rYes",
+		"#gNo",
+		"[Continue]"
+	]
+  },
+  "Grembo": {
+	"NAME": "Grembo The Great",
+	"DESCRIPTIONS": [
+		"A small gremlin wielding a tiny sword approaches you. NL \"Behold! It is I, #y@GREMBO@ #y@THE@ #y@GREAT!\"@ NL The creature seems to think itself much more threatening than it actually is.",
+		"The gremlin speaks. NL \"Grembo has watched you fight. Grembo also like to fight! Grembo will lend you #ggreat #gstrength, if you give #yshinies!\" NL He seems trustworthy, if somewhat delusional.",
+		"\"An adequate payment! The legendary strength of #yGrembo is yours!\" NL As he says this, a small collection of #bgremlins emerge from the shadows. It seems you've made some friends.",
+		"\"Fine. Grembo does not care! Grembo has other, stronger warriors to lend his sword to!\" NL He isn't very good at hiding his disappointment. He disappears back into the shadows of the city."
+	],
+	"OPTIONS": [
+		"[Continue]",
+		"[Locked] Requires: ",
+		"[Lose ",
+		" gold",
+		"] #yJoin #gforces #gwith #gGrembo #gThe #gGreat.",
+		"[Decline]"
+	]
+  },
+  "Tinkerer": {
+	"NAME": "The Tinkerer",
+	"DESCRIPTIONS": [
+		"A man with messy hair and wild eyes hidden behind goggles appears from the alleyways. NL \" @WELCOME!@ I am known as #yThe #yTinkerer. Might I have a look at your equipment?\"",
+		"The Tinkerer scraps the offered object, using the pieces to improve some of your other equipment. He seems to quite enjoy the task.",
+		"The man produces a number of tools and begins to work. NL ",
+		"The man gleefully takes the offered item and starts pulling it appart and rearranging its insides. NL ",
+		"In a flurry of motion, the man grabs the object and adjusts its various components. NL ",
+		"After some time, he proudly presents you the result of his work.",
+		"When he gives the device back, you hardly recognise it.",
+		"Eventually he returns the subject of his expirementing, excited telling you about the new features and improvements he's added.",
+		"In a sudden explosion of light and fire, the object is destroyed. In a state of panic, the man appologises profusely for his failiure.",
+		"When you get your equipment back, it has been rendered nothing more than a useless pile of parts. The man seems oblivious of this fact."
+	],
+	"OPTIONS": [
+		"[Leave]",
+		"[Locked] Requires: ???",
+		"[Locked] Requires: Upgraded Card",
+		"[Lose Upgraded Card] #gUpgrade #g",
+		" #gcards.",
+		"[Lose ",
+		"] #g",
+		"% #gObtain ",
+		"[Used]",
+		"Remove a card",
+		"Upgrade 2 cards"
+	]
+  },
+  "ReplayTheSpireMod:TheMausoleumExtra": {
+	"NAME": "The Mausoleum",
+	"DESCRIPTIONS": [
+		"You push open the coffin. As you do, #p~black~ #p~fog~ spews forth and covers the entire room! Inside, you find no body, only a #y~relic.~ You take it and move onwards, #r@coughing@ #r@violently.@",
+		"You push open the coffin. The fog dissipates harmlessly. Inside, you find the mortal remains of a decorated soldier grasping an old #yrelic. You pilfer it and move on."
+	],
+	"OPTIONS": [
+		"[Open Coffin] #gObtain #ga #gRelic. #r",
+		"%: #rBecome #rCursed #r(Random).",
+	]
+  },
+  "ReplayTheSpireMod:TheJoustExtra": {
+	"NAME": "The Joust",
+	"DESCRIPTIONS": [
+		"The ghost you've been traveling with runs up to the knight excitedly. NL #y@\"Noodles!!\"@ NL The knight is overjoyed to be reunited with his pet, even if it is now a pet ghost. Shedding tears of joy, he offers you a #greward for bringing them back together. NL NL The other knight just kinda... leaves."
+	],
+	"OPTIONS": [
+		"[Locked] Requires: Pet Ghost.",
+		"[Lose Pet Ghost] #gObtain #g",
+		" #ggold. #gChoose #ga #grare #gcard #gto #gobtain."
+	]
+  },
+  "ReplayTheSpireMod:DesignerExtra": {
+	"NAME": "Designer In-Spire",
+	"DESCRIPTIONS": [
+		"this is stupid."
+	],
+	"OPTIONS": [
+		"[Give Kiss] #g",
+		"[Stop]",
+		"[Continue] #g",
+		"[PASSION] #g",
+		"[DESIRE] #g",
+		"%: #gUpgrade #ga #grandom #gcard.",
+		"%: #rChoose #r1 #rof #r3 #rrandom #rCurses #rto #rObtain.",
+		"#rLose #r",
+		" #rHP."
+	]
+  },
+  "ReplayTheSpireMod:DanceKnight": {
+	"NAME": "Testing Knight",
+	"DESCRIPTIONS": [
+		"A tall #bknight blocks your path. NL @\"Halt!@ Only those who #yprove #ytheir #yworth may pass through here!\"",
+		"\"So be it! Beat my #bsweet #bmoves, and I shall let ye through!\"",
+		"You are no match for the #bKnight. NL \"A #rpitiful display! Did you really think you could beat me with moves like those? @HA!\"@",
+		"\"#gWell #gdone! You have #yproven #yyour #yworth, traveler. Here, have a small #gprize for your trouble. I wish you luck on your adventure!\"",
+		"#g@\"FANTASTIC!\"@ NL The knight is overwhealmingly impressed by your skill. NL \"Never have I seen such #y~grace~, such #b@majesty!@ Here, take this #gtrinket as thanks for showing me such a display!\" NL He hands you something and steps aside to let you pass.",
+		"\"Not in the mood for a fight, eh? Not that I can blame you - probably been fighting all day, what's with the mosters all over the place. Very well, #bQuestions it is!\"",
+		"\"Which of the following does #rnot have #yArtifact?\"",
+		"\"Which of the following is #yRarest?\""
+		
+	],
+	"OPTIONS": [
+		"[Prove Strength] Trial by combat.",
+		"[Prove Dexterity] Trial by dance-off.",
+		"[Prove Focus] Trial by questions.",
+		"[Continue]",
+		"[The Guardian]",
+		"[Bronze Orbs]",
+		"[Orb Walkers]",
+		"[Giant Head]",
+		"[Sentries]",
+		"[Spheric Guardians]",
+		"[Bronze Automaton]",
+		"[Donu]",
+		"[]"
+	]
+  }
+}

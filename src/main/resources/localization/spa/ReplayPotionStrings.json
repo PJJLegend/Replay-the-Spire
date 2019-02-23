@@ -1,0 +1,146 @@
+{
+  "Adrenaline Potion": {
+	"NAME": "Adrenaline Potion",
+    "DESCRIPTIONS": [
+			"Draw #b",
+			" card",
+			" and gain #b",
+			" Energy."
+	]
+  },
+  "Death Potion": {
+	"NAME": "Death Potion",
+    "DESCRIPTIONS": [
+			"Deal #b",
+			" damage. Lose #b",
+			" health."
+	]
+  },
+  "Doom Potion": {
+	"NAME": "Doom Potion",
+    "DESCRIPTIONS": [
+			"Destroy an enemy after #b",
+			" turns."
+	]
+  },
+  "Elixir": {
+	"NAME": "Elixir",
+    "DESCRIPTIONS": [
+			"#yExhaust ALL #yStatus and #yCurse cards.",
+			"#yExhaust all #yStatus and #yCurse cards from your hand.",
+			"",
+			"It had no effect..."
+	]
+  },
+  "Spirit Potion": {
+	"NAME": "Spirit Potion",
+    "DESCRIPTIONS": [
+			"Gain #b",
+			" #yIntangible."
+	]
+  },
+  "Thorns Potion": {
+	"NAME": "Thorns Potion",
+    "DESCRIPTIONS": [
+			"Gain #b",
+			" #yThorns."
+	]
+  },
+  "Toxic Potion": {
+	"NAME": "Toxic Potion",
+    "DESCRIPTIONS": [
+			"Apply #b",
+			" #yNecrotic #yPoison to ALL enemies.",
+			" #yVulnerable and #b",
+			" #yFrail."
+	]
+  },
+  "Venom Potion": {
+	"NAME": "Venom Potion",
+    "DESCRIPTIONS": [
+			"Apply #b",
+			" #yPoison to enemies when you damage them.",
+			" Lose #b",
+			" #yStrength."
+	]
+  },
+  "Ironskin Potion": {
+	"NAME": "Ironskin Potion",
+    "DESCRIPTIONS": [
+			"Gain #b",
+			" #yBlock at the end of each turn."
+	]
+  },
+  "Inspiration Potion": {
+	"NAME": "Inspiration Potion",
+    "DESCRIPTIONS": [
+			"Add a random upgraded power to your hand.",
+			"Add a random power to your hand.",
+			" NL It costs 0."
+	]
+  },
+  "Milkshake": {
+	"NAME": "Milkshake",
+    "DESCRIPTIONS": [
+			"You can retain up to #b",
+			" #yEnergy between turns until the end of combat."
+	]
+  },
+  "Cursed Concoction": {
+	"NAME": "Cursed Concoction",
+    "DESCRIPTIONS": [
+			"Gain #b",
+			" #yStrength and #b",
+			" #yDexterity. NL Add a random #yCurse to your draw and discard piles."
+	]
+  },
+  "Confusion Potion": {
+	"NAME": "Confusion Potion",
+    "DESCRIPTIONS": [
+			"Apply #b",
+			" #yConfusion."
+	]
+  },
+  "Salt Potion": {
+	"NAME": "Salt Potion",
+    "DESCRIPTIONS": [
+			"Restart this fight. NL Your opponent may be different."
+	]
+  },
+  "ReplayShieldPotion": {
+	"NAME": "Shield Potion",
+    "DESCRIPTIONS": [
+			"Gain #b",
+			" #yShielding."
+	]
+  },
+  "LifebloodPotion": {
+	"NAME": "Lifeblood Potion",
+    "DESCRIPTIONS": [
+			"Gain #b",
+			" #yTemporary #yHP."
+	]
+  },
+  "Languid Potion": {
+	"NAME": "Languish Potion",
+    "DESCRIPTIONS": [
+			"Apply #b",
+			" #yLanguid."
+	]
+  },
+  "Reflective Coating": {
+	"NAME": "Reflective Coating",
+    "DESCRIPTIONS": [
+			"Gain #b",
+			" #yBlur. NL Gain #b",
+			" #yReflection."
+	]
+  },
+  "Flashbang": {
+	"NAME": "Flashpowder",
+    "DESCRIPTIONS": [
+			"#yStun an enemy.",
+			"#yStun all enemies."
+	]
+  }
+}

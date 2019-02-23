@@ -1,0 +1,889 @@
+{
+  "Atom Bomb": {
+    "NAME": "Atom Bomb",
+    "DESCRIPTION": "Deal !D! damage. NL Apply !M! Poison to ALL fighters. NL Exhaust."
+  },
+  "Poison Darts": {
+    "NAME": "Poison Darts",
+    "DESCRIPTION": "Apply !M! Necrotic Poison X times. NL Apply X Poison to ALL enemies.",
+	"UPGRADE_DESCRIPTION": "Apply X Necrotic Poison. Apply !M! Necrotic Poison to ALL enemies X times."
+  },
+  "Draining Mist": {
+    "NAME": "Draining Mist",
+    "DESCRIPTION": "Apply 3 Necrotic Poison to a random enemy !M! times. NL Apply -1 Strength to ALL enemies. NL Exhaust.",
+	"UPGRADE_DESCRIPTION": "Apply 3 Necrotic Poison to a random enemy !M! times. NL Apply -2 Strength to ALL enemies. NL Exhaust."
+  },
+  "Toxin Wave": {
+    "NAME": "Toxin Wave",
+    "DESCRIPTION": "Apply !M! Necrotic Poison to ALL enemies."
+  },
+  "Hidden Blade": {
+    "NAME": "Hidden Blade",
+    "DESCRIPTION": "Add a Shiv to your hand and draw !M! cards."
+  },
+  "Fluid Movement": {
+    "NAME": "Fluid Movement",
+    "DESCRIPTION": "Keep up to !M! Block between rounds."
+  },
+  "Combo Extender": {
+    "NAME": "Combo Extender",
+    "DESCRIPTION": "Deal !D! damage. NL If this is drawn after the start of your turn, it costs 0 until it is next played."
+  },
+  "Sneak Up": {
+    "NAME": "Sneak Up",
+    "DESCRIPTION": "Gain !M! Intangible. NL Discard all Attacks in your hand. NL Refund !stslib:refund!. NL Innate. NL Exhaust. NL Ethereal.",
+    "UPGRADE_DESCRIPTION": "Gain !M! Intangible. NL Refund !stslib:refund!. NL Innate. NL Exhaust. NL Ethereal."
+  },
+  "ReplayTheSpireMod:Necrosis": {
+    "NAME": "Necrosis",
+    "DESCRIPTION": "Convert all Poison on all enemies to Necrotic Poison. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Enemy loses all Poison. Apply Necrotic Poison equal to the amount lost to ALL enemies. NL Exhaust.",
+    "EXTENDED_DESCRIPTION": [
+      "That enemy isn't Poisoned."
+    ]
+  },
+  "ReplayTheSpireMod:Extra Pockets": {
+    "NAME": "Extra Pockets",
+    "DESCRIPTION": "Discard a card. NL Add Shivs to your hand equal to its cost.",
+    "UPGRADE_DESCRIPTION": "Discard a card. NL Add Upgraded Shivs to your hand equal to its cost."
+  },
+  "ReplayTheSpireMod:Scrap Shanks": {
+    "NAME": "Scrap Shanks",
+    "DESCRIPTION": "Each time you discard a card during your turn, add !M! Shiv to your hand.",
+    "UPGRADE_DESCRIPTION": "Each time you discard a card during your turn, add !M! Upgraded Shiv to your hand."
+  },
+  "ReplayTheSpireMod:Shiv Toss": {
+    "NAME": "Shiv Toss",
+    "DESCRIPTION": "Discard all Shivs in your hand. NL Your Shivs deal !M! extra damage this combat for each one discarded. NL Exhaustive !stslib:ex!.",
+    "UPGRADE_DESCRIPTION": "Discard all Shivs in your hand. NL Your Shivs deal !M! extra damage this combat for each one discarded. NL Exhaustive !stslib:ex!. NL Retain."
+  },
+  "ReplayTheSpireMod:The Works": {
+    "NAME": "The Works",
+    "DESCRIPTION": "For every 3 cards you draw this turn, gain [E] and deal !M! damage to a random enemy. NL Becomes Unplayable until end of round."
+  },
+  "ReplayTheSpireMod:Spot Opening": {
+    "NAME": "Spot Opening",
+    "DESCRIPTION": "For each enemy with Weakness, gain !B! Block and !M! Reflection."
+  },
+  "ReplayTheSpireMod:Exploit Weakness": {
+    "NAME": "Exploit Weakness",
+    "DESCRIPTION": "Apply Languid equal to target's Weak. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Apply Languid to ALL emenies equal to target's Weak.",
+    "EXTENDED_DESCRIPTION": [
+      "That enemy isn't Weakened."
+    ]
+  },
+  "ReplayTheSpireMod:From All Sides": {
+    "NAME": "From All Sides",
+    "DESCRIPTION": "Apply 1 Weak and deal !D! damage to a random enemy 2X + !M! times.",
+    "UPGRADE_DESCRIPTION": "Discard any number of cards from your hand. NL Apply 1 Weak and deal !D! X damage to a random enemy for each."
+  },
+  "ReplayTheSpireMod:Tripwire": {
+    "NAME": "Tripwire",
+    "DESCRIPTION": "Gain !B! Block. NL At the start of your next turn, Stun a random enemy. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Gain !B! Block. NL At the start of your next turn, Stun a random enemy and draw !M! card. NL Exhaust."
+  },
+  "Replay:Decoy": {
+    "NAME": "Decoy",
+    "DESCRIPTION": "Unplayable. NL Random discard and Exhaust effects prioritize this. NL When Exhausted or discarded during your turn, gain !B! Block this turn and next.",
+    "UPGRADE_DESCRIPTION": "Random discard and Exhaust effects prioritize this. NL When played, Exhausted, or discarded during your turn, gain !B! Block this turn and next.",
+    "EXTENDED_DESCRIPTION": [
+      "I can't play this card."
+    ]
+  },
+  "Replay:Bag of Tricks": {
+    "NAME": "Bag of Tricks",
+    "DESCRIPTION": "Choose X: NL Apply !replay:M+1! Poison, NL add !replay:M-1! shivs to your hand, NL gain !B! block, draw !replay:M-2! cards, NL or gain [E] [E] next turn.",
+    "UPGRADE_DESCRIPTION": "Choose X: NL Apply !replay:M+2! Poison, NL add !replay:M-1! shivs to your hand, NL gain !B! block, draw !replay:M-2! cards, NL or gain [E] [E] [E] next turn.",
+    "EXTENDED_DESCRIPTION": [
+      "Choose ",
+	  " tricks.",
+	  "Smoke Pellets",
+	  "Apply !replay:M+1! Poison",
+	  "Apply !replay:M+2! Poison",
+	  "Juggling Knives",
+	  "Add !replay:M-1! Shivs to your hand",
+	  "Vanishing Act",
+	  "Gain !B! Block",
+	  "Card Trick",
+	  "Draw !replay:M-2! cards",
+	  "Lightshow",
+	  "Gain [E] [E] next turn",
+	  "Gain [E] [E] [E] next turn"
+    ]
+  },
+  "Replay:Poison Smokescreen": {
+    "NAME": "Poison Smokescreen",
+    "DESCRIPTION": "Gain !B! Block. NL Apply that much Poison randomly split among all enemies.",
+    "UPGRADE_DESCRIPTION": "Gain !B! Block. NL Apply that much Poison to all enemies."
+  },
+  "Abandon": {
+    "NAME": "Abandon",
+    "DESCRIPTION": "Exhaust up to !M! cards. NL Draw 1 card for each. NL Add a Void to your discard pile. NL Exhaustive !stslib:ex!. NL Ethereal.",
+    "UPGRADE_DESCRIPTION": "Exhaust up to !M! cards. NL Draw 1 card for each. NL Add a Dazed to your discard pile. NL Exhaustive !stslib:ex!. NL Ethereal."
+  },
+  "Defy Death": {
+    "NAME": "Defy Death",
+    "DESCRIPTION": "Gain !B! Block. NL Costs [R] less for each card you've Exhausted this combat. NL Grave."
+  },
+  "Life Link": {
+    "NAME": "Life Bind",
+    "DESCRIPTION": "Apply to an enemy. When you lose health, the bound enemy takes that much damage."
+  },
+  "Massacre": {
+    "NAME": "Massacre",
+    "DESCRIPTION": "Deal !D! damage to ALL enemies. NL Lose all Strength. NL Affected !M! times by Strength."
+  },
+  "Hemogenesis": {
+    "NAME": "Hemogenesis",
+    "DESCRIPTION": "Deal !D! damage. Gain !B! Block. Heal !M! HP. Exhaust. NL Upgrade each time you lose HP while this is in your hand."
+  },
+  "Run Through": {
+    "NAME": "Run Through",
+    "DESCRIPTION": "Target enemy loses !D! HP and !M! Block."
+  },
+  "ReplayTheSpireMod:Hemoarmum": {
+    "NAME": "Hemoarmum",
+    "DESCRIPTION": "Lose 2 HP and gain !B! Shielding X times. NL Refund 3. NL Exhaust."
+  },
+  "Demonic Infusion": {
+    "NAME": "Demonic Infusion",
+    "DESCRIPTION": "Upgrade a Skill or Attack in your hand X times. NL Refund !stslib:refund!. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Upgrade a Skill or Attack in your hand X+ !M! times. NL Refund !stslib:refund!. NL Exhaust."
+  },
+  "Single Out": {
+    "NAME": "Single Out",
+    "DESCRIPTION": "Apply !M! Vulnerable. NL Draw 1 card. If it is not an Attack or Power, Exhaust it."
+  },
+  "Cursed Blade": {
+    "NAME": "Cursed Blade",
+    "DESCRIPTION": "Deal !D! damage. NL You cannot play other cards while this is in your hand."
+  },
+  "ReplayReversal": {
+    "NAME": "Reversal",
+    "DESCRIPTION": "Keep Block at the end of this round. NL Gain !M! Reflection.",
+	"UPGRADE_DESCRIPTION": "Keep Block at the end of the next !replay:M-1! rounds. NL Gain !M! Reflection."
+  },
+  "ReplayTheSpireMod:LeadingStrike": {
+    "NAME": "Leading Strike",
+    "DESCRIPTION": "Deal !D! damage. NL Reduce the cost of an Attack in your hand to !M! this turn."
+  },
+  "ReplayTheSpireMod:Stacked": {
+    "NAME": "Phantom Shield",
+    "DESCRIPTION": "Gain !B! Block. NL Exhaustive !stslib:ex!."
+  },
+  "ReplayTheSpireMod:Corrosion Curse": {
+    "NAME": "Corrosion Curse",
+    "DESCRIPTION": "Apply !replay:M-1! Languid and !M! Decrepit. NL Exhaustive !stslib:ex!."
+  },
+  "Replay:Many Hands": {
+    "NAME": "Many Hands",
+    "DESCRIPTION": "Add X copies of Undeath's Touch to your hand. NL Exhaustive !stslib:ex!.",
+    "UPGRADE_DESCRIPTION": "Add X copies of Undeath's Touch to your hand. NL Refund !stslib:refund!. NL Exhaustive !stslib:ex!."
+  },
+  "Replay:Undeath's Touch": {
+    "NAME": "Undeath's Touch",
+    "DESCRIPTION": "Deal !D! damage !M! times. NL Apply 1 Decrepit. NL Exhaust.",
+	"UPGRADE_DESCRIPTION": "Deal !D! damage !M! times. NL Apply 1 Decrepit. NL Exhaustive !stslib:ex!."
+  },
+  "Eclipse": {
+    "NAME": "Eclipse",
+    "DESCRIPTION": "Exhaust your hand, and replace it with random cards that cost 1 less than normal. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Exhaust your hand, and replace it with random cards that cost 1 less than normal. NL Refund !stslib:refund!. NL Exhaust."
+  },
+  "ReplayTheSpireMod:Strike From Hell": {
+    "NAME": "Strike From Hell",
+    "DESCRIPTION": "Deal !D! damage. NL If this card is Exhausted, increase its damage by !M! and place it back into your hand."
+  },
+  "ReplayTheSpireMod:Limb From Limb": {
+    "NAME": "Limb From Limb",
+    "DESCRIPTION": "Deal !D! damage. NL If this deals at least !M! unblocked damage, Refund 2 and draw 2 cards."
+  },
+  "ReplayScrap": {
+    "NAME": "Scrap",
+    "DESCRIPTION": "Deal !D! damage. NL If this kills a (non-minion) enemy, heal 6 HP and permanently increase this card's Damage by !M!."
+  },
+  "ReplayGash": {
+    "NAME": "Claw Rake",
+    "DESCRIPTION": "Deal !D! damage. NL Deal !D! damage to ALL enemies. NL Grave. Counts as Claw. NL Startup: if your deck has no normal Claw cards, add one to your draw pile."
+  },
+  "Crystallizer": {
+    "NAME": "Crystallizer",
+    "DESCRIPTION": "Crystal orbs give !M! additional Focus to adjacent orbs. NL At the end of your turn, if more than half your orb slots are empty, Channel 1 Crystal.",
+    "UPGRADE_DESCRIPTION": "Innate. NL Crystal orbs give !M! additional Focus to adjacent orbs. NL At the end of your turn, if more than half your orb slots are empty, Channel 1 Crystal."
+  },
+  "ReplayTheSpireMod:GoodbyeWorld": {
+    "NAME": "Empty Bin",
+    "DESCRIPTION": "At the end of your turn, Exhaust all Common cards in your hand, and gain !M! Block for each.",
+    "UPGRADE_DESCRIPTION": "Innate. NL At the end of your turn, Exhaust all Common cards in your hand, and gain !M! Block for each."
+  },
+  "Mirror Shield": {
+    "NAME": "Mirror Shield",
+    "DESCRIPTION": "Channel 1 Crystal. NL Channel 1 Frost. NL Gain !B! Block. NL Gain !M! Reflection."
+  },
+  "ReplayTheSpireMod:Repulse": {
+    "NAME": "Repulse",
+    "DESCRIPTION": "Gain !M! Reflection. NL Shuffle 1 Backfire into your discard pile."
+  },
+  "ReplayTheSpireMod:Omega Cannon": {
+    "NAME": "Omega Cannon",
+    "DESCRIPTION": "Deal !D! damage to ALL enemies !M! times. NL Add a Backfire to your draw & discard piles."
+  },
+  "ReplayTheSpireMod:Dual Polarity": {
+    "NAME": "Dual Polarity",
+    "DESCRIPTION": "Channel !M! Lightning and Dark, NL Crystal and Frost, NL Water and Hellfire, NL or Glass and Plasma.",
+	"EXTENDED_DESCRIPTION": [
+		"Choose",
+		"Light and Dark",
+		"Channel !M! Lightning. NL Channel !M! Dark.",
+		"Stone and Ice",
+		"Channel !M! Crystal. NL Channel !M! Frost.",
+		"Water and Fire",
+		"Channel !M! Water. NL Channel !M! Hellfire.",
+		"Entropy and Energy",
+		"Channel !M! Glass. NL Channel !M! Plasma."
+	]
+  },
+  "Reflective Lens": {
+    "NAME": "Reflective Lens",
+    "DESCRIPTION": "Channel 1 Glass. NL Glass orbs give Reflection as a passive ability."
+  },
+  "Panic Button": {
+    "NAME": "Panic Button",
+    "DESCRIPTION": "Evoke all your orbs. NL Draw !M! card. NL Exhaust. NL Retain.",
+    "UPGRADE_DESCRIPTION": "Evoke all your orbs. NL Draw !M! cards. NL Exhaust. NL Retain."
+  },
+  "ReplayRNGCard": {
+    "NAME": "RNG",
+    "DESCRIPTION": "Channel X random orbs.",
+    "UPGRADE_DESCRIPTION": "Channel (X+1) random orbs."
+  },
+  "BasicCrystalCard": {
+    "NAME": "Crystal Conduit",
+    "DESCRIPTION": "Channel 1 Crystal.",
+    "UPGRADE_DESCRIPTION": "Channel 1 Crystal. NL Channel 1 random orb."
+  },
+  "ReplayIlluminate": {
+    "NAME": "Illuminate",
+    "DESCRIPTION": "Channel 1 Light. NL Exhaust."
+  },
+  "ReplaySort": {
+    "NAME": "Sort",
+    "DESCRIPTION": "Shuffle all Rare OR non-Status cards in your discard pile back into your draw pile. Draw !M! cards.",
+    "UPGRADE_DESCRIPTION": "Shuffle all Rare OR non-Status cards in your discard pile back into your draw pile. Draw !M! cards. NL Retain.",
+	"EXTENDED_DESCRIPTION": [
+		"Sort By...",
+		"Rarity",
+		"Shuffle all Rare cards from your discard pile into your deck. NL Draw !M! cards.",
+		"Type",
+		"Shuffle all non-Status cards from your discard pile into your deck. NL Draw !M! cards.",
+		"Cost",
+		"Shuffle all 0-cost cards from your discard pile into your deck. NL Draw !M! cards."
+	]
+  },
+  "ReplaySolidLightProjector": {
+    "NAME": "Solid Light Projector",
+    "DESCRIPTION": "Gain !B! Shielding for every !M! cards in your discard pile. NL Exhaustive !stslib:ex!.",
+	"EXTENDED_DESCRIPTION": [
+		" NL (Gain ",
+		" total)"
+	]
+  },
+  "ReplayOverclock": {
+    "NAME": "Overclock",
+    "DESCRIPTION": "Gain !M! Focus. NL At the end of your turn, lose !M! Focus."
+  },
+  "Time Bomb": {
+    "NAME": "Time Bomb",
+    "DESCRIPTION": "Gain 2 Orb Slots. NL Channel 2 Glass. NL Channel 1 Dark and trigger its passive !M! times. NL Exhaust."
+  },
+  "FIFO Queue": { 
+    "NAME": "FIFO Queue", 
+    "DESCRIPTION": "Gain !M! Orb Slots.", 
+    "UPGRADE_DESCRIPTION": "Gain 2X Orb Slots. NL Channel 1 Glass. NL Refund !stslib:refund!." 
+  },
+  "ReplayTheSpireMod:System Scan": {
+    "NAME": "System Scan",
+    "DESCRIPTION": "The next !M! Status cards you draw Exhaust and draw 1 card when drawn."
+  },
+  "ReplayTheSpireMod:Reroute Power": {
+    "NAME": "Reroute Power",
+    "DESCRIPTION": "Swap your Strength and Focus. NL Draw !M! card.",
+    "UPGRADE_DESCRIPTION": "Swap your Strength and Focus. NL Draw !M! card. NL Retain."
+  },
+  "ReplayTheSpireMod:Fabricate Wheel": {
+    "NAME": "Fabricate Wheel",
+    "DESCRIPTION": "Obtain a Prayer Wheel relic. NL Fleeting.",
+    "UPGRADE_DESCRIPTION": "Obtain a Prayer Wheel relic. NL You may choose 1 of 3 random Rare cards to permanently add to your deck. NL Fleeting."
+  },
+  "ReplayTheSpireMod:Muscle Training": {
+    "NAME": "Weight Training",
+    "DESCRIPTION": "Gain 1 Strength. NL Lose !M! HP. NL Exhaustive !stslib:ex!."
+  },
+  "ReplayTheSpireMod:Speed Training": {
+    "NAME": "Speed Training",
+    "DESCRIPTION": "Gain !M! Dexterity. NL Discard a random card. NL Refund !stslib:refund!. NL Exhaustive !stslib:ex!."
+  },
+  "ReplayTheSpireMod:Calculation Training": {
+    "NAME": "Calculation Training",
+    "DESCRIPTION": "Gain 1 Focus. NL Add !M! Dazed to your discard pile. NL Exhaustive !stslib:ex!.",
+	"UPGRADE_DESCRIPTION": "Gain 1 Focus. NL Exhaustive !stslib:ex!. NL Startup: add !M! Dazed to your discard pile."
+  },
+  "Replay:Refactor": {
+    "NAME": "Refactor",
+    "DESCRIPTION": "Choose: Lose !M! Strength, Dexterity, or Focus. NL Choose: Gain !M! Strength, Dexterity, or Focus. NL Exhaust.",
+	"UPGRADE_DESCRIPTION": "Choose: Lose !M! Strength, Dexterity, or Focus. NL Choose: Gain !M! Strength, Dexterity, or Focus. NL Exhaust."
+  },
+  "Improvise": {
+    "NAME": "Improvise",
+    "DESCRIPTION": "Choose 1 of 3 random cards to add to your hand. It costs 1 less. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Choose 1 of 3 random cards to upgrade and add to your hand. NL It costs 1 less. NL Exhaust."
+  },
+  "Midas Touch": {
+    "NAME": "Midas Touch",
+    "DESCRIPTION": "Exhaust any number of cards in your hand. NL Add a random Rare card to your hand for each. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Exhaust any number of cards in your hand. NL Add a random Upgraded Rare card to your hand for each. NL Exhaust."
+  },
+  "Survey Options": {
+    "NAME": "Survey Options",
+    "DESCRIPTION": "Draw X. NL Refund !stslib:refund!. "
+  },
+  "ReplayTheSpireMod:Private Reserves": {
+    "NAME": "Private Reserves",
+    "DESCRIPTION": "Gain [E]. NL Exhaust. NL Retain.",
+    "UPGRADE_DESCRIPTION": "Gain [E]. NL Draw 1 card. NL Exhaust. NL Retain."
+  },
+  "Poisoned Strike": {
+    "NAME": "Poisoned Strike",
+    "DESCRIPTION": "Apply !D! Poison. NL Affected by damage modifiers."
+  },
+  "ReplayTheSpireMod:Trickstab": {
+    "NAME": "Trickstab",
+    "DESCRIPTION": "Deal !D! damage !M! times. NL Affected by block modifiers."
+  },
+  "Specialist": {
+    "NAME": "Specialist",
+    "DESCRIPTION": "All non-attack damage you deal is increased by !M!. ",
+	"UPGRADE_DESCRIPTION": "Innate. NL All non-attack damage you deal is increased by !M!. ",
+	"EXTENDED_DESCRIPTION": [
+		"Lose 1 Focus. NL "
+	]
+  },
+  "ReplayUltimateDefense": {
+    "NAME": "The Ultimate Defense",
+    "DESCRIPTION": "Gain !M! Artifact. NL Gain !M! Dexterity. NL Gain 5 Plated Armor. NL Gain !B! Shielding.",
+	"UPGRADE_DESCRIPTION": "Gain !M! Artifact. NL Gain !M! Dexterity. NL Gain 1 Intangible. NL Gain 5 Plated Armor. NL Gain !B! Shielding."
+  },
+  "Replay:Sssssssssstrike": {
+    "NAME": "Sssstrike",
+    "DESCRIPTION": "Deal !D! damage, plus an additional !D! for each [E] this cost. NL Refund !stslib:refund!. NL Snecko."
+  },
+  "Replay:Sssssssssshield": {
+    "NAME": "Sssshield",
+    "DESCRIPTION": "Gain !B! Block. NL Gain !B! Shielding for each [E] this cost. NL Snecko. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Gain !B! Block. NL Gain !B! Shielding for each [E] this cost. NL Refund !stslib:refund!. NL Snecko. NL Exhaust."
+  },
+  "Replay:Dark Deal": {
+    "NAME": "Dark Deal",
+    "DESCRIPTION": "Unplayable. NL Startup: Choose 1 of !M! random Black cards to add to your draw pile.",
+	"UPGRADE_DESCRIPTION": "Unplayable. Grave. NL Startup: Choose 1 of !M! random Black cards to add to your draw pile."
+  },
+  "Replay:Resounding Blow": {
+    "NAME": "Resounding Blow",
+    "DESCRIPTION": "Deal !D! damage. NL Gain !B! Block. NL When drawn, add an Echo of this card to your hand."
+  },
+  "Replay:Duplecho": {
+    "NAME": "Duplecho",
+    "DESCRIPTION": "Create X Echoes of a card in your hand.",
+	"UPGRADE_DESCRIPTION": "Create X Echoes of a card in your hand. NL Refund !stslib!."
+  },
+  "Replay:SS_Removal": {
+    "NAME": "Shop Special: Card Removal Service",
+    "DESCRIPTION": "Permanently remove a card from your deck. NL Fleeting.",
+	"UPGRADE_DESCRIPTION": "Permanently remove a card from your deck. NL Fleeting. NL You may choose to spend !M! gold to negate Fleeting."
+  },
+  "Replay:SS_Rewards": {
+    "NAME": "Shop Special: Rewards Program",
+    "DESCRIPTION": "Gain !M! gold for each card in your draw pile. NL Purge.",
+	"UPGRADE_DESCRIPTION": "Innate. NL Gain !M! gold for each card in your draw pile. NL Purge."
+  },
+  "Replay:SS_Contract": {
+    "NAME": "Shop Special: Contract",
+    "DESCRIPTION": "When you deal unblocked damage this turn, gain that much Max HP. NL Fleeting.",
+	"UPGRADE_DESCRIPTION": "When you deal unblocked damage this turn, gain that much Max HP. NL Permanently Downgrade this card. NL Exhaust."
+  },
+  "Replay:SS_Spare Waffle": {
+    "NAME": "Shop Special: Spare Waffle",
+    "DESCRIPTION": "Heal to full HP. NL Retain. NL Fleeting.",
+	"UPGRADE_DESCRIPTION": "Heal to full HP. NL Gain !M! Max HP. NL Retain. NL Fleeting."
+  },
+  "Crow Ritual": {
+    "NAME": "Awakened One Ritual",
+    "DESCRIPTION": "Add !M! πRitual Components to your draw and discard piles. If 5 are ever in your hand at once, they become !D! damage Attacks.",
+	"EXTENDED_DESCRIPTION": [
+		"Ritual Component",
+		"A 0-cost Skill that draws 1 card."
+	]
+  },
+  "Ritual Component": {
+    "NAME": "Ritual Component",
+    "DESCRIPTION": "Draw 1 card. NL If it is an Attack, take !M! damage.",
+	"UPGRADE_DESCRIPTION": "Draw 1 card."
+  },
+  "Dark Echo": {
+    "NAME": "Dark Echo",
+    "DESCRIPTION": "Deal !D! damage to ALL enemies."
+  },
+  "Looming Evil": {
+	"NAME": "Looming Evil",
+	"DESCRIPTION": "Can be played for !M! Energy to Exhaust. NL At the end of your turn, shuffle a curse into your draw pile and reduce cost.",
+    	"EXTENDED_DESCRIPTION": [
+    	"Can be played for ",
+    	" Energy to Exhaust. NL At the end of your turn, shuffle a curse into your draw pile and reduce cost."
+		]
+  },
+  "Hallucinations": {
+	"NAME": "Hallucinations",
+	"DESCRIPTION": "Unplayable. NL At the end of your turn, add !M! random card to your draw pile. NL Exhaustive !stslib:ex!."
+  },
+  "Sickly": {
+	"NAME": "Sickly",
+	"DESCRIPTION": "Unplayable. NL At the end of your turn, lose !M! Block."
+  },
+  "Languid": {
+	"NAME": "Depression",
+	"DESCRIPTION": "Unplayable. NL When drawn, gain !M! Languid and draw a card."
+  },
+  "CommonCold": {
+	"NAME": "Common Cold",
+	"DESCRIPTION": "Sneeze!",
+	"EXTENDED_DESCRIPTION": [
+		" NL Is Exhausted by Medical Kit rather than Blue Candle."
+	]
+  },
+  "Delirium": {
+	"NAME": "Delirium",
+	"DESCRIPTION": "Unplayable. NL At the end of your turn, gain Confusion for 1 round."
+  },
+  "Voices": {
+	"NAME": "Voices",
+	"DESCRIPTION": "Unplayable. NL Ethereal. NL Startup: Add !M! copies of this card to your discard pile."
+  },
+  "Spreading Infection": {
+	"NAME": "Spreading Infection",
+	"DESCRIPTION": "Unplayable. NL At the end of your turn, duplicate all other Status and Curse cards in your hand."
+  },
+  "Amnesia": {
+	"NAME": "Amnesia",
+	"DESCRIPTION": "Unplayable. NL At the end of your turn, Exhaust your hand."
+  },
+  "AbeCurse": {
+	"NAME": "Abe's Revenge",
+	"DESCRIPTION": "Unplayable. NL At the end of your turn, gain !M! Frail. NL Ethereal."
+  },
+  "MirrorMistCurse": {
+	"NAME": "The Mists",
+	"DESCRIPTION": "Unplayable. NL You somehow had no transformable cards, so you got this instead."
+  },
+  "Overencumbered": {
+	"NAME": "Over-Encumbered",
+	"DESCRIPTION": "Unplayable. NL When you draw this, add !M! Dazed to your hand and draw a card."
+  },
+  "ReplayTheSpireMod:Doomed": {
+	"NAME": "Doomed",
+	"DESCRIPTION": "Die. NL Fleeting. NL Ethereal. NL Grave."
+  },
+  "ReplayTheSpireMod:Faulty Equipment": {
+	"NAME": "Faulty Equipment",
+	"DESCRIPTION": "Unplayable. NL Soulbound.",
+	"UPGRADE_DESCRIPTION": "Fleeting."
+  },
+  "ReplayTheSpireMod:Restless Dread": {
+	"NAME": "Restless Dread",
+	"DESCRIPTION": "Autoplay. NL Draw 1 card. NL Add !M! random Curses to your discard pile. NL Exhaust. NL Grave."
+  },
+  "ReplayTheSpireMod:Splinters": {
+	"NAME": "Splinters",
+	"DESCRIPTION": "Take !M! damage. NL Draw 1 card. NL Exhaustive !stslib:ex!. NL Startup: add a copy of this to your draw pile."
+  },
+  "ReplayTheSpireMod:IOU": {
+	"NAME": "I.O.U.",
+	"DESCRIPTION": "Costs !M! gold to play. NL Fleeting. NL Soulbound."
+  },
+  "ReplayTheSpireMod:Whispers of Evil": {
+	"NAME": "Whispers of Evil",
+	"DESCRIPTION": "Autoplay. NL At the start of your turn, draw !M! additional card. NL At the end of your turn, add !M! Echo of a random Curse to your draw pile."
+  },
+  "ReplayTheSpireMod:Misquitos": {
+	"NAME": "A Very Large Swarm Of Misquitos",
+	"DESCRIPTION": "Autoplay. NL Deal !M! damage to ALL fighters."
+  },
+  "ReplayTheSpireMod:Imminent Threat": {
+	"NAME": "Imminent Threat",
+	"DESCRIPTION": "Innate. NL Take !M! damage. NL Exhaust. NL Switches to Vengeful Threat."
+  },
+  "ReplayTheSpireMod:Vengeful Threat": {
+	"NAME": "Vengeful Threat",
+	"DESCRIPTION": "Grave. NL Draw 1 card. NL Exhaust. NL Switches to Imminent Threat."
+  },
+  "ReplayTheSpireMod:Meltdown Sequence": {
+	"NAME": "Meltdown Sequence",
+	"DESCRIPTION": "Unplayable. NL Cycle. When cycled: NL Add 1 Lagged to your discard pile. Exhaustive !stslib:ex!. NL Startup: Add !M! Lagged+ to your draw pile.",
+	"UPGRADE_DESCRIPTION": "Unplayable. NL [#ff9900]OVERHEAT: [#ff9900]< !construct:O! [#ff9900]> NL Cycle. When cycled: NL Add 1 Lagged to your discard pile. Exhaustive !stslib:ex!. NL Startup: Add !M! Lagged+ to your draw pile."
+  },
+  "ReplayTheSpireMod:Lagged": {
+	"NAME": "Lagged",
+	"DESCRIPTION": "Unplayable. NL Cycle.",
+	"UPGRADE_DESCRIPTION": "Unplayable. NL [#ff9900]OVERHEAT: [#ff9900]< !construct:O! [#ff9900]> NL Cycle."
+  },
+  "ReplayTheSpireMod:Compounding Headache": {
+	"NAME": "Compounding Headache",
+	"DESCRIPTION": "Draw 1 card. NL Lose !beaked:wI! HP. NL Exhaust. NL Wither -1.",
+	"EXTENDED_DESCRIPTION": [
+	"Increases HP loss."
+	]
+  },
+  "ReplayTheSpireMod:Traitor's Concience": {
+	"NAME": "Traitor's Concience",
+	"DESCRIPTION": "Unplayable. NL At the end of your turn, take !beaked:wI! damage. NL Wither -1.",
+	"EXTENDED_DESCRIPTION": [
+	"Increases damage taken."
+	]
+  },
+  "ReplayTheSpireMod:Wavering Confidence": {
+	"NAME": "Wavering Confidence",
+	"DESCRIPTION": "Unplayable. NL Self-Retaining. NL At the end of your turn, Switches to Delayed Remorse."
+  },
+  "ReplayTheSpireMod:Greater Regret": {
+	"NAME": "Delayed Remorse",
+	"DESCRIPTION": "Unplayable. NL At the end of your turn, take !M! Fibonacci damage. NL Switches to Wavering Confidence."
+  },
+  "Replay:Sluggish": {
+	"NAME": "Sluggish",
+	"DESCRIPTION": "Exhaustive !stslib:ex!. NL Amplify [E] : Draw 1 card and reduce Exhaustive counter an extra time."
+  },
+  "ReplayTheSpireMod:Echoes of Time": {
+	"NAME": "Echoes of Time",
+	"DESCRIPTION": "Fetch !M! cards you've Exhausted this combat. NL Grave. NL Purge."
+  },
+  "ReplayTheSpireMod:??????????????????????": {
+	"NAME": "??????????????????",
+	"DESCRIPTION": "Snecko. Purge.",
+	"EXTENDED_DESCRIPTION": [
+		" NL ???????",
+		" NL Exhaust up to !M! cards in your hand.",
+		" NL Add !M! Upgraded Shivs to your hand.",
+		" NL Channel !M! random orbs.",
+		" NL Gain [E].",
+		" NL Gain !M! Knives and !M! Protection.",
+		" NL Gain !M! Fuel and shuffle !M! Trinkets into your draw pile.",
+		" NL Shuffle !M! random Cores into your draw pile.",
+		" NL Shuffle !M! random Cantrips into your draw pile.",
+		" NL Heal !M! HP and Replenish !replay:M-1! uses of all Wither and/or Exhaustive cards in your hand and discard pile.",
+		" NL Replicate !M! random relics and Retain !M! cards this turn.",
+		" NL Heal !M! HP and shuffle !M! Inspiration into your draw pile.",
+		" NL Equip a 3/ !M! Weapon.",
+		" NL Add !M! Sparks to your hand. NL Amplify [E] : add a copy of this card to your discard pile.",
+		" NL Add !M! Cogs to your draw pile.",
+		" NL Split into a random Slime. NL Apply !M! Slimed to all enemies.",
+		" NL Shuffle !M! random Letters into your draw pile.",
+		"This card's effects are randomized each time it is drawn. The more [E] this card costs, the more effects it gets."
+	]
+  },
+  "ReplayTheSpireMod:Necrogeddon": {
+	"NAME": "Necrogeddon",
+	"DESCRIPTION": "Deal damage equal to the number of cards you've Exhausted this combat. NL Grave.",
+	"UPGRADE_DESCRIPTION": "Deal damage equal to the number of cards you've Exhausted this combat to ALL enemies. NL Grave.",
+	"EXTENDED_DESCRIPTION": [
+    	" NL (Deals !D! damage)"
+    ]
+  },
+  "ReplayTheSpireMod:Haul": {
+	"NAME": "Haul",
+	"DESCRIPTION": "Draw your entire draw pile. NL You cannot draw any more cards this turn. NL Exhaustive !stslib:ex!.",
+	"UPGRADE_DESCRIPTION": "Draw your entire draw pile. NL Exhaustive !stslib:ex!."
+  },
+  "ReplayTheSpireMod:Black Plague": {
+	"NAME": "Black Plague",
+	"DESCRIPTION": "Draw !replay:M/2u! cards. NL Apply !M! Poison. NL Apply !M! Necrotic Poison. NL Apply !M! Languid. NL Apply !M! Decrepit. NL Exhaust.",
+	"EXTENDED_DESCRIPTION": [
+		"When played, this card Exhausts and creates two new cards with half the cost and effects.",
+		"Draw !replay:M/2u! cards. NL ",
+		"Draw !replay:M/2u! card. NL ",
+		"Apply !M! Poison. NL ",
+		"Apply !M! Necrotic Poison. NL ",
+		"Apply !M! Languid. NL ",
+		"Apply !M! Decrepit. NL ",
+		"Split this card in half.",
+		"Exhaust."
+	]
+  },
+  "ReplayTheSpireMod:Book of Names": {
+	"NAME": "Book of Names",
+	"DESCRIPTION": "Gain Slime/Orb slots until you have !M!. NL Add a random Spire Boss card to your hand at the start of your next !M! turns. NL After !M! turns, shuffle a copy of this card into your draw pile.",
+	"UPGRADE_DESCRIPTION": "Gain Slime/Orb slots until you have !M!. NL Add a random Spire Boss card to your hand at the start of your next !replay:M+1! turns. NL After !M! turns, shuffle a copy of this card into your draw pile."
+  },
+  "ReplayTheSpireMod:Chaos Vortex": {
+	"NAME": "Chaos Vortex",
+	"DESCRIPTION": "Gain !B! Shielding. NL Confuse all enemies. NL !M! card you draw each turn has its stats and effects scrambled.",
+	"UPGRADE_DESCRIPTION": "Gain !B! Shielding. NL Gain !M! Artifact. NL Confuse all enemies. NL !M! card you draw each turn has its stats and effects scrambled."
+  },
+  "ReplayTheSpireMod:Echo Chamber": {
+	"NAME": "Echo Chamber",
+	"DESCRIPTION": "Make an Echo of the first !M! non-Ethereal non-Power cards you play each turn.",
+	"UPGRADE_DESCRIPTION": "Make an Echo of the first !M! cards you play each turn."
+  },
+  "ReplayTheSpireMod:Brewmster": {
+	"NAME": "Brewmaster",
+	"DESCRIPTION": "Obtain a random potion at the start of each round.",
+	"UPGRADE_DESCRIPTION": "Obtain a random potion at the start of each round."
+  },
+  "ReplayTheSpireMod:Dark Transmutation": {
+	"NAME": "Dark Transmutation",
+	"DESCRIPTION": "Add X random Black cards to your hand. NL They cost 1 less this round. NL Purge.",
+	"UPGRADE_DESCRIPTION": "Add X random Black cards to your hand. NL They cost 1 less this round. NL Refund !stslib:refund!. NL Purge."
+  },
+  "Replay:Fractal Strike": {
+    "NAME": "Fractal Strike",
+    "DESCRIPTION": "Deal !D! damage. NL Draw 1 card. NL Add a new Fractal πStrike to your discard pile. NL Exhaustive !stslib:ex!."
+  },
+  "ReplayTheSpireMod:Rythmic Step": {
+	"NAME": "Rythmic Step",
+	"DESCRIPTION": "Draw !M! cards. NL Switches into Rythmic Lunge."
+  },
+  "ReplayTheSpireMod:Rythmic Lunge": {
+	"NAME": "Rythmic Step",
+	"DESCRIPTION": "Deal !D! damage. NL Switches into Rythmic Step."
+  },
+  "ReplayTheSpireMod:Uncanny Aura": {
+	"NAME": "Uncanny Aura",
+	"DESCRIPTION": "Unplayable. NL Grave. NL At the end of your turn, gain !M! Strength and Dexterity for each other Unplayable card in your hand."
+  },
+  "ReplayTheSpireMod:Five Aces": {
+	"NAME": "Five Aces",
+	"DESCRIPTION": "Each time you play a card, !M!% chance to gain 1 Critical."
+  },
+  "ReplayTheSpireMod:Heavy Armor": {
+	"NAME": "Heavy Armor",
+	"DESCRIPTION": "Gain !M! Plated Armor. NL Exhaustive !stslib:ex!"
+  },
+  "Ghost Swipe": {
+    "NAME": "Ghost Swipe",
+    "DESCRIPTION": "Deal !D! damage. NL Exhaust. NL Ethereal."
+  },
+  "Ghost Defend": {
+    "NAME": "Ghost Defend",
+    "DESCRIPTION": "Gain !B! Block. NL Exhaust. NL Ethereal."
+  },
+  "Ghost Fetch": {
+    "NAME": "Ghost Fetch",
+    "DESCRIPTION": "Choose a basic card from your draw pile and place it into your hand. NL Exhaust. NL Ethereal.",
+	"UPGRADE_DESCRIPTION": "Choose a basic card from your draw pile and place it into your hand. NL It costs 0 this turn. NL Exhaust. NL Ethereal.",
+	"EXTENDED_DESCRIPTION": [
+    	"There are no Basic cards NL in my draw pile."
+    ]
+  },
+  "Pot Of Greed": {
+    "NAME": "Grinning Jar",
+    "DESCRIPTION": "Draw !M! cards. NL You may not play another Grinning Jar this turn.",
+    "UPGRADE_DESCRIPTION": "Draw !M! cards.",
+	"EXTENDED_DESCRIPTION": [
+		"I've already played a Grinning Jar this turn!",
+		"I've already played this card once this turn!"
+	]
+  },
+  "GremboGang": {
+    "NAME": "Grembo's Gang",
+    "DESCRIPTION": "Summon a random gremlin to fight for you.",
+    "UPGRADE_DESCRIPTION": "Innate. NL Summon a random gremlin to fight for you."
+  },
+  "AutogenPotionCard": {
+    "NAME": "AutogenPotionCard",
+    "DESCRIPTION": " NL Exhaust. NL Retain."
+  },
+  "Scorching Beam": {
+    "NAME": "Scorching Beam",
+    "DESCRIPTION": "Deal !D! damage to ALL enemies. NL Channel !M! Hellfire."
+  },
+  "Firewall": {
+    "NAME": "Firewall",
+    "DESCRIPTION": "Gain !B! Block. NL Each time you block incoming damage this round, Channel !M! Hellfire."
+  },
+  "IC_BasicHellfireCard": {
+    "NAME": "Molten Core",
+    "DESCRIPTION": "Channel 1 Hellfire. NL Exhaust."
+  },
+  "WeaponsOverheat": {
+    "NAME": "Overheat Weapons",
+    "DESCRIPTION": "Gain 1 Focus if you have <0, Lose 1 Focus if you have >0. NL Channel 1 Hellfire. NL Add 1 Backfire to your discard pile. NL Ethereal.",
+    "UPGRADE_DESCRIPTION": "Gain 1 Focus if you have <0, Lose 1 Focus if you have >0. NL Channel 1 Hellfire. NL Ethereal."
+  },
+  "Replay:Light Bash": {
+    "NAME": "Light Bash",
+    "DESCRIPTION": "Deal !D! damage. NL Amplify [E] : also apply !M! Vulnerable."
+  },
+  "Replay:Spark Circuitry": {
+    "NAME": "Spark Circuitry",
+    "DESCRIPTION": "Channel !M! Manaspark. NL Amplify [E] : Channel !M! Crystal first. NL Exhaust."
+  },
+  "ReplayTheSpireMod:RavenHex": {
+    "NAME": "Raven's Hex",
+    "DESCRIPTION": "Apply !beaked:wI! Languid. NL Wither 1.",
+    "UPGRADE_DESCRIPTION": "Apply !beaked:wI! Languid and Decrepit. NL Wither 1.",
+	"EXTENDED_DESCRIPTION": [
+		"Decreases the debuff amount."
+	]
+  },
+  "ReplayTheSpireMod:Wings of Steel": {
+    "NAME": "Wings of Steel",
+    "DESCRIPTION": "Gain !beaked:wB! Shielding and NL !beaked:wI! Plated Armor. NL Wither !M!.",
+    "UPGRADE_DESCRIPTION": "Gain !beaked:wB! Shielding, NL !beaked:wB! Block, NL and !beaked:wI! Plated Armor. NL Wither !M!.",
+	"EXTENDED_DESCRIPTION": [
+		"Decreases all amounts."
+	]
+  },
+  "ReplayTheSpireMod:Owlgaze": {
+    "NAME": "Owlgaze",
+    "DESCRIPTION": "Stun a random enemy. NL Refund !stslib:refund!. NL Wither !M!.",
+    "UPGRADE_DESCRIPTION": "Stun all enemies. NL Refund !stslib:refund!. NL Wither !M!.",
+	"EXTENDED_DESCRIPTION": [
+		"Decreases Refund amount. NL Card is not Depleted until Refund drops below 0."
+	]
+  },
+  "ReplayTheSpireMod:Prepare the Ceremony": {
+    "NAME": "Prepare the Ceremony",
+    "DESCRIPTION": "Add !M! πRitual Components to your hand. NL Each time you play a Skill this turn, deal !M! damage to a random enemy. NL Exhaustive !stslib:ex!.",
+	"EXTENDED_DESCRIPTION": [
+		"Ritual Component",
+		"A 0-cost Skill that draws 1 card."
+	]
+  },
+  "ReplayTheSpireMod:Armaments MK-II": {
+    "NAME": "Armaments MK-II",
+    "DESCRIPTION": "Gain !B! Block. NL Upgrade a card in your hand. NL Can Mega-Upgrade cards.",
+    "UPGRADE_DESCRIPTION": "Gain !B! Block. NL Upgrade ALL cards in your hand. NL Can Mega-Upgrade cards.",
+	"EXTENDED_DESCRIPTION": [
+		"Gain !B! Block. NL Mega-Upgrade ALL cards in your hand."
+	]
+  },
+  "ReplayTheSpireMod:Mirror System": {
+    "NAME": "Mirror System",
+    "DESCRIPTION": "[#ff9900]OVERHEAT: [#ff9900]< !construct:O! [#ff9900]> NL Cycle if you have < 1 Dexterity. NL Gain !M! Reflection."
+  },
+  "ReplayTheSpireMod:Armaments MK-II-B": {
+    "NAME": "Armaments MK-II-B",
+    "DESCRIPTION": "Gain !B! Block. NL Upgrade a card in your hand. NL If the card is already Upgraded, Enhance it instead. NL Exhaustive !stslib:ex!.",
+    "UPGRADE_DESCRIPTION": "Gain !B! Block. NL Upgrade ALL cards in your hand. NL Enhances cards that are already Upgraded. NL Exhaustive !stslib:ex!."
+  },
+  "BackFire": {
+    "NAME": "Backfire",
+    "DESCRIPTION": "Unplayable. NL When drawn, gain 1 Vulnerable. NL At the end of your turn, take 6 damage. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Unplayable. NL When drawn, gain 1 Vulnerable. NL At the end of your turn, take 8 damage. NL Exhaust."
+  },
+  "MimicStatus": {
+    "NAME": "Mad Mimicry",
+    "DESCRIPTION": "Duplicate a random card in your hand. NL Exhaust."
+  },
+  "ReplayMimic_AttackMimicry": {
+    "NAME": "Attack Mimicry",
+    "DESCRIPTION": "If target enemy intends to attack, add a copy of that attack to your hand. NL Exhaust."
+  },
+  "ReplayMimic_RelicMimicry": {
+    "NAME": "Relic Mimicry",
+    "DESCRIPTION": "Gain a random relic effect.",
+	"UPGRADE_DESCRIPTION": "Gain a random non-common relic effect."
+  },
+  "ReplayMimic_Lock": {
+    "NAME": "Mimic's Lock",
+    "DESCRIPTION": "Gain !M! Artifact. NL Gain !M! Dexterity."
+  },
+  "ReplayMimic_Shell": {
+    "NAME": "Mimic's Shell",
+    "DESCRIPTION": "Gain !M! Plated Armor."
+  },
+  "ReplayMimic_Boo": {
+    "NAME": "BOO!",
+    "DESCRIPTION": "Apply !M! Weak. NL Apply !M! Confusion."
+  },
+  "ReplayMimic_MadMimicry": {
+    "NAME": "Mimic Madness",
+    "DESCRIPTION": "Duplicate a card in your hand. NL Exhaust. NL Ethereal.",
+	"UPGRADE_DESCRIPTION": "Duplicate a card in your hand. NL Exhaust."
+  },
+  "ReplayMimic_PowerMimicry": {
+    "NAME": "Power Mimicry",
+    "DESCRIPTION": "Copy 1 stack of a random enemy buff X times. NL Refund !M!. ",
+    "UPGRADE_DESCRIPTION": "Copy 1 stack of a random enemy buff X times. NL Refund !M!. "
+  },
+  "Replay:SS_forest_1": {
+    "NAME": "Many Paths",
+    "DESCRIPTION": "Discard !M! card. NL Fetch !replay:M+1! cards. NL Exhaustive !stslib:ex!.",
+    "UPGRADE_DESCRIPTION": "Discard !M! cards. NL Fetch !replay:M+1! cards. NL Exhaustive !stslib:ex!."
+  },
+  "Replay:SS_forest_2": {
+    "NAME": "Forest Treasure",
+    "DESCRIPTION": "Gain !M! random Relic effects."
+  },
+  "Replay:SS_forest_3": {
+    "NAME": "Patience",
+    "DESCRIPTION": "Draw 1 card. NL Retain your hand this turn.",
+    "UPGRADE_DESCRIPTION": "Draw 1 card. NL Retain your hand this turn. NL Your Block is not lost at the end of this round. NL Gain [E] at the start of next turn."
+  },
+  "Replay:SS_forest_4": {
+    "NAME": "The Mists",
+    "DESCRIPTION": "Gain 1 Intangible. NL Keep your Block at the end of this turn. NL Apply !M! Weak to ALL enemies. NL Exhaust."
+  },
+  "Replay:SS_forest_5": {
+    "NAME": "Lost Forever",
+    "DESCRIPTION": "Apply to an enemy. NL For every !M! health they lose, they gain 1 Languid."
+  },
+  "Replay:SS_forest_6": {
+    "NAME": "Forest Fishers",
+    "DESCRIPTION": "Choose: Gain !M! Dexterity, or heal 10 HP.",
+	"EXTENDED_DESCRIPTION": [
+		"Choose",
+		"Doughnut",
+		"Gain !M! Dexterity",
+		"Banana",
+		"Heal 10 HP"
+	]
+  },
+  "Replay:SS_fish_1": {
+    "NAME": "Drag to Hell",
+    "DESCRIPTION": "Apply !M! Drowning. NL Exhaust."
+  },
+  "Replay:SS_fish_2": {
+    "NAME": "Living Lantern",
+    "DESCRIPTION": "Heal !M! HP. NL If you are below 50% max HP, gain 1 Intangible. NL Exhaustive !stslib:ex!."
+  },
+  "Replay:SS_fish_3": {
+    "NAME": "Six Feet Under",
+    "DESCRIPTION": "Deal !D! damage !M! times. NL Gain 2 Weak. NL Exhaust.",
+	"UPGRADE_DESCRIPTION": "Deal !D! damage !M! times. NL Exhaust."
+  },
+  "Replay:SS_fish_4": {
+    "NAME": "Captain's Orders",
+    "DESCRIPTION": "Gain !B! Block. NL If you have <1 Strength, gain !M! Strength. NL If you have <1 Potency, gain !M! Potency."
+  },
+  "Replay:SS_hec_1": {
+    "NAME": "Forged in Hellfire",
+    "DESCRIPTION": "Gain !replay:M-1! Artifact. NL All non-attack damage you recieve is reduced by !M!."
+  },
+  "Replay:SS_hec_2": {
+    "NAME": "Steel Heart",
+    "DESCRIPTION": "Gain !M! Plated Armor."
+  },
+  "Replay:SS_hec_3": {
+    "NAME": "Run Them Down",
+    "DESCRIPTION": "Deal !D! damage and apply Surrounded to a random enemy."
+  },
+  "Replay:SS_hec_4": {
+    "NAME": "Dynamite!",
+    "DESCRIPTION": "Deal !D! damage to ALL enemies after !M! turns."
+  },
+  "m_BoundBlade": {
+    "NAME": "Bound Blade",
+    "DESCRIPTION": "Cantrip. NL Add a Shiv to your hand. NL Draw a card.",
+    "UPGRADE_DESCRIPTION": "Cantrip. NL Add an Upgraded Shiv to your hand. NL Draw a card."
+  }
+}

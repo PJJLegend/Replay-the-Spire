@@ -1,0 +1,52 @@
+{
+  "Light": {
+    "DESCRIPTION": [
+      "#yPassive: At the end of turn, heal #b",
+      ". NL #yEvoke: Gain #b",
+      " #yRegen."
+    ],
+    "NAME": "Light"
+  },
+  "Crystal": {
+    "DESCRIPTION": [
+      "#yPassive: Adjacent orbs have #b+",
+      " #yFocus. NL #yEvoke: If you have less than #b",
+      " orb slots, gain an orb slot. NL #yPassive effect is not affected by #yFocus."
+    ],
+    "NAME": "Crystal"
+  },
+  "Glass": {
+    "DESCRIPTION": [
+      "#yPassive: No effect.",
+      " NL #yEvoke: If you have more than #b",
+	  " orb slots, consumes your leftmost orb slot and #yEvokes any non-glass orb occupying it.",
+      "#yPassive: At the end of your turn, gain #b",
+	  " #yReflection."
+    ],
+    "NAME": "Glass"
+  },
+  "Hellfire": {
+    "DESCRIPTION": [
+      "#yPassive: At the start of turn, gain #b",
+      " #yStrength until end of turn. NL #yEvoke: Gain #b",
+      " #yStrength until end of turn and apply #yVulnerable to a random enemy #b",
+	  " time(s)."
+    ],
+    "NAME": "Hellfire"
+  },
+  "Acid": {
+    "DESCRIPTION": [
+      "#yPassive: At the start of turn, apply #b",
+      " #yPoison to a random enemy. NL #yEvoke: Replace all #yPoison with #yNecrotic #yPoison."
+    ],
+    "NAME": "Acid"
+  },
+  "ManaSpark": {
+    "DESCRIPTION": [
+      "#yPassive: At the start of turn, gain #b",
+      " #yCharge-Up. NL #yEvoke: Gain [E] and #b",
+      " #yCharge-Up."
+    ],
+    "NAME": "Manaspark"
+  }
+}
