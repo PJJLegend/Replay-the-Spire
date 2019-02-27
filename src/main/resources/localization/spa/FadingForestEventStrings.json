@@ -1,34 +1,34 @@
 {
 	"FF_Enter": {
-		"NAME": "Enter the Forest",
+		"NAME": "Entra al Bosque",
 		"DESCRIPTIONS": [
-			"You see before you a strange forest of trees. Feeling an evil presence, you turn to go back, only to find the trees surrounding you on all sides. NL NL You have been swallowed by the woods.",
-			"The forest is winding and wild, with no clear paths. You're unsure where you are or where you've been; it is as if the trees themselves move when you look away.",
-			"You push your way through the trees and fog. It's not long before you run into a monster doing the same thing.",
-			"You decide to stop and recover your strength before setting out again. As the mists and shadows shift, you become aware of another creature resting nearby.",
-			"You stop and consider the situation, peering through the heavy fog at the trees surrounding you. You can just about make out some shapes moving around - and they're coming closer."
+			"Ves delante de ti un extraño bosque de árboles. Sientes una presencia maligna, y te das la vuelta, solo para encontrarte rodeado completamente de árboleso NL NL Has sido tragado por el bosque.",
+			"El bosque es salvaje y tortuoso, sin una ruta clara. No estás segura de dónde has estado o estuvistes; es como si los mismos árboles se movieran cuando no miras.",
+			"Avanzas a través de los árboles y la niebla. No pasa mucho tiempo hasta encontrarte a un monstruo haciendo lo mismo.",
+			"Decides parar y recuperar tus fuerzas antes de volver a partir. Al despejarse la niebla y las sombras, te das cuenta de que hay otra criatura descansando cerca.",
+			"Te paras a considerar la situación, mirando a través de la pesada niebla los árboles que te rodean. Puedes distinguir algunas figuras moviéndose alrededor - y se están acercando."
 		],
 		"OPTIONS": [
-			"[Continue]",
-			"[Press forth] #rEncounter #rsomething #runrelenting.",
-			"[Stop and rest] #rEncounter #rsomething #rslothful.",
-			"[Analyze the situation] #rEncounter #rsomething #rheartless.",
-			"[Fight!]"
+			"[Continuar]",
+			"[Seguir Adelante] #rEncuentra #ralgo #rimplacable.",
+			"[Parar y descansar] #rEncuentra #ralgo #rperezoso.",
+			"[Analizar la situación] #rEncuentra #ralgo #rsin #rcorazón.",
+			"[¡Lucha!]"
 		]
 	},
 	"FF_Serpent": {
-		"NAME": "The False Serpent",
+		"NAME": "La Serpiente Falsa",
 		"DESCRIPTIONS": [
-			"You find an unusual pit in the depths of the forest. As you approach the opening, an familiar serpent creature materializes in front of you. NL NL ~\"Ho~ ~hooo!~ ~Hello~ ~hello!~ ~what~ ~have~ ~we~ ~got~ ~here?~ Hello wanderer, I ask a simple question. NL The most fulfilling of lives is that in which you can #y~have~ #y~everything!~ NL Don't you agree?\"",
-			"~\"Yeeeeeeessssssssssessss!~ NL ~Thisss~ ~will~ ~all~ ~be~ ~worthhh~ ~it.~ NL ~..ssSSs.....~ ~ss...~ ~sssss....!\"~",
-			"The serpent is silent for a time. Without warning, it suddently lunges at you with blinding speed - but fades into harmless mist just inches from your face.",
-			"The serpent's grin widens, and it rears its head upwards. Before it can do anything, it disperses into mist - but leaves behind a reward."
+			"Encuentras un pozo inusual en las profundidades del bosque. Al acercarte a la entrada, se materialza una criatura familiar serpiente enfrente de ti. NL NL ~\"Ho~ ~¡hooo!~ ~Hola~ ~¡hola!~ ~¿que~ ~tenemos~ ~aquí?~ Hola vagabundo, te pregunto una pregunta simple. NL La vida The most fulfilling of lives is that in which you can #y~have~ #y~everything!~ NL Don't you agree?\"",
+			"~\"¡Síiiiiiiiiiiiiiiiiiiiii!~ NL ~Esssto~ ~merecerá~ ~la~ ~pena.~ NL ~..ssSSs.....~ ~ss...~ ~sssss....!\"~",
+			"La serpiente guarda silencio un tiempo. Sin avisar, de pronto arremete contra tí a un velocidad cegadora - pero se vuelve niebla inofensiva a unos centimetros de tu cara.",
+			"La sonrisa de la serpiente se ensancha, y levanta su cabeza. Antes de poder hacer algo, se dispersa en la niebla - pero deja una recompensa."
 		],
 		"OPTIONS": [
-			"[Agree] #gObtain #ga #grandom #gRelic #geffect. #rAdd #ra #rcopy #rof #rDoubt #rto #ryour #rdraw #rpile.",
-			"[Disagree]",
-			"[Continue]",
-			"[Leave]"
+			"[Estar de acuerdo] #gObtén #gun #gefecto #galeatorio #gde #gReliquia. #rAñade #runa #rcopia #rde #rDuda #ra #rtu #rpila #rde #rrobado.",
+			"[Estar en desacuerdo]",
+			"[Continuar]",
+			"[Salir]"
 		]
 	},
 	"FF_Scrap Ooze": {
