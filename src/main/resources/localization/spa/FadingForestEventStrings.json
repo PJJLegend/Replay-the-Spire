@@ -32,18 +32,18 @@
 		]
 	},
 	"FF_Scrap Ooze": {
-		"NAME": "False Ooze",
+		"NAME": "Falso moco",
 		"DESCRIPTIONS": [
-			"As you make your way through the trees you hear a ~gurgling~ and the @clanking@ of metal objects. Before you is a slime-like creature with a number of strange artifacts floating within. You can see a #yTreasure at the center... but the slime already seems irked by your presence.",
-			"You manage to grab the #yRelic and yank it out. Your clothes collect a fair amount of slime in the proccess."
+			"Mientras caminas entre los árboles puedes escuchar los ~gorgoteos~ y las @cadenas@ de objetos metálicos. Delante de ti a una criatura similar a un slime con varias extraños artefactos en su interior. Puedes ver un #yTesoro en el centro... pero el slime parece ya irritado por tu presencia.",
+			"Logras coger la #yReliquia y arrancársela0. Tu ropa se llena con bastante slime en el proceso."
 		],
 		"OPTIONS": [
-			"[Reach Inside] #gObtain #ga #grandom #gRelic #geffect. #rAdd #r3 #rSlimed #rto #ryour #rhand.",
-			"[Leave]"
+			"[Buscar en su Interior] #gObtén #gun #gefecto #gde #gReliquia #galeatorio. #rAñade #r3 #rSlimed #ra #rtu #rmano.",
+			"[Salir]"
 		]
 	},
 	"FF_Big Fish": {
-		"NAME": "The False Fishers",
+		"NAME": "Los Falsos Pescadores",
 		"DESCRIPTIONS": [
 			"As you make your way between the trees you see a #ybanana, a #ydonut, and a #ybox ~floating~ about. You seem to remember something like this before, but closer inspection reveals no strings or tricks holding the objects in place. NL What do you do?",
 			"You eat the #ybanana. It is nutritious and slightly #bmagical, healing you. NL The other objects turn to mist and vanish.",
